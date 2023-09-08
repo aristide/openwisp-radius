@@ -446,7 +446,7 @@ or Cameroon (``+237``).
 
 OpenWISP RADIUS only allow using mobile phone numbers for user registration.
 This can cause issues in regions where fixed line and mobile phone numbers
- uses the same pattern (e.g. USA). Setting the value to ``True``
+uses the same pattern (e.g. USA). Setting the value to ``True``
 would make phone number type checking less strict.
 
 ``OPENWISP_RADIUS_SMS_COOLDOWN``
@@ -684,6 +684,8 @@ The following choices are available by default:
 
     **Disclaimer:** these are just suggestions on possible configurations
     of OpenWISP RADIUS and must not be considered as legal advice.
+
+.. _register_registration_method:
 
 Adding support for more registration/verification methods
 #########################################################
